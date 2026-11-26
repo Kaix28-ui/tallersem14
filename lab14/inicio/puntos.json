@@ -1,0 +1,50 @@
+[
+  {
+    "id": "entrada",
+    "titulo": "Entrada",
+    "descripcion": "Bienvenido a la finca. Aquí comienza el recorrido por el proceso del café, desde la planta hasta la taza.",
+    "yaw": 0.0,
+    "pitch": 8.0,
+    "posicion": {
+      "x": 0.0,
+      "y": 2.435,
+      "z": -5.942
+    }
+  },
+  {
+    "id": "mostrador",
+    "titulo": "Mostrador de café",
+    "descripcion": "Pruebe el café de altura de Chiriquí. Pregunte por el tueste medio y por las bolsas de 250 g para llevar.",
+    "yaw": 60.0,
+    "pitch": 5.0,
+    "posicion": {
+      "x": 5.178,
+      "y": 2.124,
+      "z": -2.986
+    }
+  },
+  {
+    "id": "mirador",
+    "titulo": "Mirador",
+    "descripcion": "Desde aquí se ve el valle y las montañas donde se cultiva el café. Ideal para fotos al atardecer.",
+    "yaw": -75.0,
+    "pitch": 15.0,
+    "posicion": {
+      "x": -5.597,
+      "y": 3.156,
+      "z": -1.503
+    }
+  },
+  {
+    "id": "cafetal",
+    "titulo": "Cafetal",
+    "descripcion": "Plantas de café sembradas a la sombra. La cosecha se hace a mano entre noviembre y marzo.",
+    "yaw": 150.0,
+    "pitch": 0.0,
+    "posicion": {
+      "x": 2.997,
+      "y": 1.6,
+      "z": 5.198
+    }
+  }
+]

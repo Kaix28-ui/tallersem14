@@ -1,0 +1,26 @@
+LABORATORIO SEMANA 14 · Recorrido inmersivo interactivo
+Tecnologías Inmersivas (PROG 409) · UNACHI
+
+CONTENIDO DE LA CARPETA
+  index.html             Escena A-Frame 1.8.0. Complete los TODO A1, A2, B1, B2, C1, C2 y C3.
+  generar_puntos.py      Script de Python. Complete los TODO 1 y 2.
+  puntos.csv             Puntos de interés (px, py en la foto 360°, título y descripción).
+  assets/
+    panorama_calibracion.jpg   Foto 360° de calibración (4096 x 2048, proporción 2:1).
+                               Tiene una rejilla de grados y los letreros ENTRADA (0°),
+                               MOSTRADOR (60°), MIRADOR (-75°) y CAFETAL (150°).
+    taza.glb                   Modelo 3D de ejemplo (una taza de 1 unidad de alto).
+
+CÓMO EMPEZAR
+  1. Abra una terminal en esta carpeta.
+  2. Ejecute:  python -m http.server 8000
+  3. Abra http://localhost:8000 en Chrome o Edge.
+     No abra index.html con doble clic: fetch() necesita el servidor.
+  4. Después de completar los TODO 1 y 2, ejecute:  python generar_puntos.py
+     Se crea el archivo puntos.json que lee la escena.
+
+NOTAS
+  - Necesita conexión a internet: A-Frame se carga desde aframe.io.
+  - Si edita puntos.csv en Excel, guárdelo como "CSV UTF-8" para conservar las tildes.
+  - Para usar su propia foto 360°, cópiela en assets/, cambie el src de <img id="panorama">
+    y ajuste ANCHO y ALTO en generar_puntos.py.
